@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="#E9F3E6"
+    android:orientation="vertical"
+    tools:context=".registration">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Student managment system"
+        android:textColor="#E10720"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:shadowColor="#7A0606"
+        android:textColor="#0E0E0E"
+        android:textColorHighlight="#D5ABAB"
+        android:textColorHint="#806E6E"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Enter your Email"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#7A0606"
+        android:textColor="#0E0E0E"
+        android:textColorHighlight="#D5ABAB"
+        android:textColorHint="#806E6E"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Enter your phone number"
+        android:inputType="number"
+        android:shadowColor="#7A0606"
+        android:textColor="#0E0E0E"
+        android:textColorHighlight="#D5ABAB"
+        android:textColorHint="#806E6E"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/passwordoe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:shadowColor="#7A0606"
+        android:textColor="#0E0E0E"
+        android:textColorHighlight="#D5ABAB"
+        android:textColorHint="#806E6E"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="registration"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>

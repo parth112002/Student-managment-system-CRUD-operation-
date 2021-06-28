@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#9A7272" />
+
+    <TextView
+        android:id="@+id/rename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:paddingLeft="20dp"
+        android:text="name"
+        android:textColor="#503131"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:paddingLeft="20dp"
+        android:text="phone"
+        android:textColor="#503131"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/reemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="email"
+        android:textColor="#503131"
+        android:textSize="20sp" />
+
+</LinearLayout>
